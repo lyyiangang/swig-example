@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+_example	../example.py	/^    _example = swig_import_helper()$/;"	kind:variable	line:28
+_newclass	../example.py	/^    _newclass = 0$/;"	kind:variable	line:90
+_newclass	../example.py	/^    _newclass = 1$/;"	kind:variable	line:86
+_object	../example.py	/^    _object = object$/;"	kind:variable	line:85
+_object	../example.py	/^    class _object:$/;"	kind:class	line:88
+_swig_getattr	../example.py	/^def _swig_getattr(self, class_type, name):$/;"	kind:function	line:73
+_swig_getattr_nondynamic	../example.py	/^def _swig_getattr_nondynamic(self, class_type, name, static=1):$/;"	kind:function	line:62
+_swig_property	../example.py	/^    _swig_property = property$/;"	kind:variable	line:34
+_swig_repr	../example.py	/^def _swig_repr(self):$/;"	kind:function	line:77
+_swig_setattr	../example.py	/^def _swig_setattr(self, class_type, name, value):$/;"	kind:function	line:58
+_swig_setattr_nondynamic	../example.py	/^def _swig_setattr_nondynamic(self, class_type, name, value, static=1):$/;"	kind:function	line:39
+cvar	../example.py	/^cvar = _example.cvar$/;"	kind:variable	line:107
+example.py	../example.py	1;"	kind:file	line:1
+fact	../example.py	/^def fact(n):$/;"	kind:function	line:94
+fact	../example.py	/^fact = _example.fact$/;"	kind:variable	line:96
+get_time	../example.py	/^def get_time():$/;"	kind:function	line:102
+get_time	../example.py	/^get_time = _example.get_time$/;"	kind:variable	line:104
+my_mod	../example.py	/^def my_mod(x, y):$/;"	kind:function	line:98
+my_mod	../example.py	/^my_mod = _example.my_mod$/;"	kind:variable	line:100
+swig_import_helper	../example.py	/^    def swig_import_helper():$/;"	kind:function	line:13
+test.py	../test.py	1;"	kind:file	line:1
