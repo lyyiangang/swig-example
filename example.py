@@ -424,6 +424,24 @@ print_2d_array = _example.print_2d_array
 def get_rand_array(output_array):
     return _example.get_rand_array(output_array)
 get_rand_array = _example.get_rand_array
+class Person(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Person, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, Person, name)
+    __repr__ = _swig_repr
+
+    def __init__(self, name):
+        this = _example.new_Person(name)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+    __swig_destroy__ = _example.delete_Person
+    __del__ = lambda self: None
+Person_swigregister = _example.Person_swigregister
+Person_swigregister(Person)
+
 # This file is compatible with both classic and new-style classes.
 
 

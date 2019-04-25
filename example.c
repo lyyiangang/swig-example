@@ -86,3 +86,8 @@ void get_rand_array(double* output_array, int length) {
 
   return;
 }
+
+Person::Person(const std::string& name)
+{
+    m_name = name;
+}

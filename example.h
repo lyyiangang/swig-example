@@ -25,4 +25,12 @@ void print_2d_array(const double* array_2d, int dim1, int dim2);
 
 void get_rand_array(double* output_array, int length);
 
+class Person
+{
+    public:
+        Person(const std::string& name);
+    private:
+        std::string m_name;
+};
+
 #endif
