@@ -90,6 +90,296 @@ except AttributeError:
     _newclass = 0
 
 
+class SwigPyIterator(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, SwigPyIterator, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, SwigPyIterator, name)
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+    __swig_destroy__ = _example.delete_SwigPyIterator
+    __del__ = lambda self: None
+
+    def value(self):
+        return _example.SwigPyIterator_value(self)
+
+    def incr(self, n=1):
+        return _example.SwigPyIterator_incr(self, n)
+
+    def decr(self, n=1):
+        return _example.SwigPyIterator_decr(self, n)
+
+    def distance(self, x):
+        return _example.SwigPyIterator_distance(self, x)
+
+    def equal(self, x):
+        return _example.SwigPyIterator_equal(self, x)
+
+    def copy(self):
+        return _example.SwigPyIterator_copy(self)
+
+    def next(self):
+        return _example.SwigPyIterator_next(self)
+
+    def __next__(self):
+        return _example.SwigPyIterator___next__(self)
+
+    def previous(self):
+        return _example.SwigPyIterator_previous(self)
+
+    def advance(self, n):
+        return _example.SwigPyIterator_advance(self, n)
+
+    def __eq__(self, x):
+        return _example.SwigPyIterator___eq__(self, x)
+
+    def __ne__(self, x):
+        return _example.SwigPyIterator___ne__(self, x)
+
+    def __iadd__(self, n):
+        return _example.SwigPyIterator___iadd__(self, n)
+
+    def __isub__(self, n):
+        return _example.SwigPyIterator___isub__(self, n)
+
+    def __add__(self, n):
+        return _example.SwigPyIterator___add__(self, n)
+
+    def __sub__(self, *args):
+        return _example.SwigPyIterator___sub__(self, *args)
+    def __iter__(self):
+        return self
+SwigPyIterator_swigregister = _example.SwigPyIterator_swigregister
+SwigPyIterator_swigregister(SwigPyIterator)
+
+class IntVector(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, IntVector, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, IntVector, name)
+    __repr__ = _swig_repr
+
+    def iterator(self):
+        return _example.IntVector_iterator(self)
+    def __iter__(self):
+        return self.iterator()
+
+    def __nonzero__(self):
+        return _example.IntVector___nonzero__(self)
+
+    def __bool__(self):
+        return _example.IntVector___bool__(self)
+
+    def __len__(self):
+        return _example.IntVector___len__(self)
+
+    def __getslice__(self, i, j):
+        return _example.IntVector___getslice__(self, i, j)
+
+    def __setslice__(self, *args):
+        return _example.IntVector___setslice__(self, *args)
+
+    def __delslice__(self, i, j):
+        return _example.IntVector___delslice__(self, i, j)
+
+    def __delitem__(self, *args):
+        return _example.IntVector___delitem__(self, *args)
+
+    def __getitem__(self, *args):
+        return _example.IntVector___getitem__(self, *args)
+
+    def __setitem__(self, *args):
+        return _example.IntVector___setitem__(self, *args)
+
+    def pop(self):
+        return _example.IntVector_pop(self)
+
+    def append(self, x):
+        return _example.IntVector_append(self, x)
+
+    def empty(self):
+        return _example.IntVector_empty(self)
+
+    def size(self):
+        return _example.IntVector_size(self)
+
+    def swap(self, v):
+        return _example.IntVector_swap(self, v)
+
+    def begin(self):
+        return _example.IntVector_begin(self)
+
+    def end(self):
+        return _example.IntVector_end(self)
+
+    def rbegin(self):
+        return _example.IntVector_rbegin(self)
+
+    def rend(self):
+        return _example.IntVector_rend(self)
+
+    def clear(self):
+        return _example.IntVector_clear(self)
+
+    def get_allocator(self):
+        return _example.IntVector_get_allocator(self)
+
+    def pop_back(self):
+        return _example.IntVector_pop_back(self)
+
+    def erase(self, *args):
+        return _example.IntVector_erase(self, *args)
+
+    def __init__(self, *args):
+        this = _example.new_IntVector(*args)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+
+    def push_back(self, x):
+        return _example.IntVector_push_back(self, x)
+
+    def front(self):
+        return _example.IntVector_front(self)
+
+    def back(self):
+        return _example.IntVector_back(self)
+
+    def assign(self, n, x):
+        return _example.IntVector_assign(self, n, x)
+
+    def resize(self, *args):
+        return _example.IntVector_resize(self, *args)
+
+    def insert(self, *args):
+        return _example.IntVector_insert(self, *args)
+
+    def reserve(self, n):
+        return _example.IntVector_reserve(self, n)
+
+    def capacity(self):
+        return _example.IntVector_capacity(self)
+    __swig_destroy__ = _example.delete_IntVector
+    __del__ = lambda self: None
+IntVector_swigregister = _example.IntVector_swigregister
+IntVector_swigregister(IntVector)
+
+class DoubleVector(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DoubleVector, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, DoubleVector, name)
+    __repr__ = _swig_repr
+
+    def iterator(self):
+        return _example.DoubleVector_iterator(self)
+    def __iter__(self):
+        return self.iterator()
+
+    def __nonzero__(self):
+        return _example.DoubleVector___nonzero__(self)
+
+    def __bool__(self):
+        return _example.DoubleVector___bool__(self)
+
+    def __len__(self):
+        return _example.DoubleVector___len__(self)
+
+    def __getslice__(self, i, j):
+        return _example.DoubleVector___getslice__(self, i, j)
+
+    def __setslice__(self, *args):
+        return _example.DoubleVector___setslice__(self, *args)
+
+    def __delslice__(self, i, j):
+        return _example.DoubleVector___delslice__(self, i, j)
+
+    def __delitem__(self, *args):
+        return _example.DoubleVector___delitem__(self, *args)
+
+    def __getitem__(self, *args):
+        return _example.DoubleVector___getitem__(self, *args)
+
+    def __setitem__(self, *args):
+        return _example.DoubleVector___setitem__(self, *args)
+
+    def pop(self):
+        return _example.DoubleVector_pop(self)
+
+    def append(self, x):
+        return _example.DoubleVector_append(self, x)
+
+    def empty(self):
+        return _example.DoubleVector_empty(self)
+
+    def size(self):
+        return _example.DoubleVector_size(self)
+
+    def swap(self, v):
+        return _example.DoubleVector_swap(self, v)
+
+    def begin(self):
+        return _example.DoubleVector_begin(self)
+
+    def end(self):
+        return _example.DoubleVector_end(self)
+
+    def rbegin(self):
+        return _example.DoubleVector_rbegin(self)
+
+    def rend(self):
+        return _example.DoubleVector_rend(self)
+
+    def clear(self):
+        return _example.DoubleVector_clear(self)
+
+    def get_allocator(self):
+        return _example.DoubleVector_get_allocator(self)
+
+    def pop_back(self):
+        return _example.DoubleVector_pop_back(self)
+
+    def erase(self, *args):
+        return _example.DoubleVector_erase(self, *args)
+
+    def __init__(self, *args):
+        this = _example.new_DoubleVector(*args)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+
+    def push_back(self, x):
+        return _example.DoubleVector_push_back(self, x)
+
+    def front(self):
+        return _example.DoubleVector_front(self)
+
+    def back(self):
+        return _example.DoubleVector_back(self)
+
+    def assign(self, n, x):
+        return _example.DoubleVector_assign(self, n, x)
+
+    def resize(self, *args):
+        return _example.DoubleVector_resize(self, *args)
+
+    def insert(self, *args):
+        return _example.DoubleVector_insert(self, *args)
+
+    def reserve(self, n):
+        return _example.DoubleVector_reserve(self, n)
+
+    def capacity(self):
+        return _example.DoubleVector_capacity(self)
+    __swig_destroy__ = _example.delete_DoubleVector
+    __del__ = lambda self: None
+DoubleVector_swigregister = _example.DoubleVector_swigregister
+DoubleVector_swigregister(DoubleVector)
+
 
 def fact(n):
     return _example.fact(n)
@@ -102,7 +392,38 @@ my_mod = _example.my_mod
 def get_time():
     return _example.get_time()
 get_time = _example.get_time
+
+def average(v):
+    return _example.average(v)
+average = _example.average
+
+def half(v):
+    return _example.half(v)
+half = _example.half
+
+def halve_in_place(v):
+    return _example.halve_in_place(v)
+halve_in_place = _example.halve_in_place
+
+def print_str(name):
+    return _example.print_str(name)
+print_str = _example.print_str
+
+def get_str():
+    return _example.get_str()
+get_str = _example.get_str
+
+def sum_array(input_array):
+    return _example.sum_array(input_array)
+sum_array = _example.sum_array
+
+def print_2d_array(array_2d):
+    return _example.print_2d_array(array_2d)
+print_2d_array = _example.print_2d_array
+
+def get_rand_array(output_array):
+    return _example.get_rand_array(output_array)
+get_rand_array = _example.get_rand_array
 # This file is compatible with both classic and new-style classes.
 
-cvar = _example.cvar
 
