@@ -421,8 +421,8 @@ def print_2d_array(array_2d):
     return _example.print_2d_array(array_2d)
 print_2d_array = _example.print_2d_array
 
-def get_rand_array(output_array):
-    return _example.get_rand_array(output_array)
+def get_rand_array(output_array, dumy):
+    return _example.get_rand_array(output_array, dumy)
 get_rand_array = _example.get_rand_array
 class Person(_object):
     __swig_setmethods__ = {}

@@ -6,7 +6,9 @@ swig -python example.i
 gcc -c -fPIC example.c example_wrap.c -I/usr/include/python3.5m
 ld -shared example.o example_wrap.o -o _example.so 
 ```
-for c++, use ```compile.sh``` to compoile .so library and then use ```python3 test.py``` test the module.
+for c++, use ```compile.sh``` to generate cpp warper files and compile.
+example.py and _example.so will be generated.
+use ```python3 test.py``` test the module.
 
 reference documents:
 https://mit-crpg.github.io/OpenMOC/devguide/swig.html

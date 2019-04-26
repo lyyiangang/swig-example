@@ -10431,10 +10431,14 @@ SWIGINTERN PyObject *_wrap_get_rand_array(PyObject *SWIGUNUSEDPARM(self), PyObje
   PyObject *resultobj = 0;
   double *arg1 = (double *) 0 ;
   int arg2 ;
+  int arg3 ;
   PyObject *array1 = NULL ;
+  int val3 ;
+  int ecode3 = 0 ;
   PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:get_rand_array",&obj0)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"OO:get_rand_array",&obj0,&obj1)) SWIG_fail;
   {
     npy_intp dims[1];
     if (!PyInt_Check(obj0))
@@ -10451,7 +10455,12 @@ SWIGINTERN PyObject *_wrap_get_rand_array(PyObject *SWIGUNUSEDPARM(self), PyObje
     if (!array1) SWIG_fail;
     arg1 = (double*) array_data(array1);
   }
-  get_rand_array(arg1,arg2);
+  ecode3 = SWIG_AsVal_int(obj1, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "get_rand_array" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  get_rand_array(arg1,arg2,arg3);
   resultobj = SWIG_Py_Void();
   {
     resultobj = SWIG_Python_AppendOutput(resultobj,array1);

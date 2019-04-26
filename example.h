@@ -23,7 +23,7 @@ double sum_array(const double* input_array, int length);
 
 void print_2d_array(const double* array_2d, int dim1, int dim2);
 
-void get_rand_array(double* output_array, int length);
+void get_rand_array(double* output_array, int length, int dumy);
 
 class Person
 {

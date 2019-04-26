@@ -78,13 +78,13 @@ void print_2d_array(const double* array_2d, int dim1, int dim2)
     }
 }
 /* Define function implementation */
-void get_rand_array(double* output_array, int length) {
+void get_rand_array(double* output_array, int length, int dumy) {
 
   /* Populate input NumPy array with random numbers */
   for (int i=0; i < length; i++)
     output_array[i] = ((double) rand()) / RAND_MAX;
 
-  return;
+  std::cout<<"dumy"<<dumy<<std::endl;
 }
 
 Person::Person(const std::string& name)
